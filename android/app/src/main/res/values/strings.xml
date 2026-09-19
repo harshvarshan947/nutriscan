@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NutriScan</string>
+    <string name="nav_scanner">Scan</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_tracking">Tracking</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_profile">Profile</string>
+    
+    <string name="scanner_title">NutriScan Barcode Reader</string>
+    <string name="scanner_subtitle">Point camera at any packaged food barcode</string>
+    <string name="scanner_permission_needed">Camera permission is required to scan barcodes. Please grant camera access.</string>
+    <string name="scanner_permission_button">Grant Permission</string>
+    <string name="scanner_manual_entry">Enter Barcode Manually</string>
+    
+    <string name="quality_score">Quality Score</string>
+    <string name="nutrition_facts">Nutrition Facts</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="additives_allergens">Additives &amp; Allergens</string>
+    <string name="log_meal">Log to Meals</string>
+    <string name="edit_nutrition">Edit Values</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+</resources>
