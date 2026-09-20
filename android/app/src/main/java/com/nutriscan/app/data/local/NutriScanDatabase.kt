@@ -32,7 +32,7 @@ abstract class NutriScanDatabase : RoomDatabase() {
                     NutriScanDatabase::class.java,
                     "nutriscan_db"
                 )
-                    .fallbackToDestructiveMigration()
+                    .fallbackToDestructiveMigration(true)
                     .build()
                 INSTANCE = instance
                 instance

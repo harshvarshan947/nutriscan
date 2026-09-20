@@ -44,6 +44,7 @@ class TrackingViewModel(
         TdeeCalculator.calculate(userProfile.value)
     )
 
+    @OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)
     val logs: StateFlow<List<MealLog>> = _selectedDate.flatMapLatest { date ->
         trackingRepository.getLogsForDate(date)
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
